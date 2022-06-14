@@ -1,0 +1,25 @@
+{
+  "sites" : [
+      {
+        "siteID": "string: random generated of X length (alternative: composite key with url+clientID)",
+        "info" : {
+          "url": "string: url of website to check", 
+          "wait": "integer: seconds delay between checks",
+          "clientID": "string: random generated of X length",
+          "label": "string: user friendly name for the website"
+        }      
+      }
+    ],
+    "clients" : [
+      {
+        "clientID": "string: random generated of X length",
+        "info" : {
+          "username": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "email": "string",
+          "SMS": "string"
+          }
+        }
+      ]
+}
