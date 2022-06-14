@@ -18,13 +18,13 @@ sms_user = os.environ['USER1_CELL']
 ''' 
 Send SMS via Twilio service
 
-:param str msg_body:
+:param str body:
   The text content of the message
 
-:param str to:
+:param str recipient:
   recipient SMS number
 
-:param list media_url:
+:param list media:
   list of URLs to hosted media
 
 '''
