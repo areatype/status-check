@@ -44,9 +44,15 @@ Create an entry for the Stats DB table
 :param str siteID:
   The unique ID for the website
 
+:param str clientID:
+  The client ID associated with the website
+
+:param str label:
+  The user-friendly name for the website
+
 '''
 
-def status_check(url, sec, siteID, clientID,label):
+def status_check(url, sec, siteID, clientID, label):
     while True:
         timestamp = int(round(time.time() * 1000))
         get_result = http_get(url)
